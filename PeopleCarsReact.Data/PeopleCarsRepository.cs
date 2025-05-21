@@ -19,16 +19,7 @@ namespace PeopleCarsReact.Data
         public List<Person> GetPeople()
         {
             using var ctx = new PeopleCarsDataContext(_connectionString);
-            var people = ctx.People.Include(c => c.Cars).ToList();
-
-            foreach (Person p in people)
-            {
-                if (p.Cars == null)
-                {
-                    Console.WriteLine("null");
-                }
-            }
-            return people;
+            return ctx.People.Include(c => c.Cars).ToList();
         }
 
         public void AddPerson(Person p)
