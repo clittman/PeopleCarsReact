@@ -1,0 +1,6 @@
+@PeopleCarsReact.Web_HostAddress = http://localhost:5271
+
+GET {{PeopleCarsReact.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
