@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import PersonRow from '../components/PersonRow';
+import {Link} from 'react-router-dom';
 
 class Home extends React.Component {
 
