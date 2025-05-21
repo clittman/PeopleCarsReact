@@ -45,7 +45,7 @@ class DeleteCars extends React.Component {
                         <h3>Are you sure you want to delete all of these cars?</h3>
                     </div>
                     <div className="col-md-6" style={{ marginTop: '20px' }}>
-                        <a href="/" style={{ textDecoration: 'none' }}><button className="btn btn-primary btn-lg w-100">No</button></a>
+                        <Link to="/" style={{ textDecoration: 'none' }}><button className="btn btn-primary btn-lg w-100">No</button></Link>
                     </div>
                     <div className="col-md-6" style={{ marginTop: '20px' }}>
                         <button className="btn btn-danger btn-lg w-100" onClick={this.onDeleteClick}>Yes</button>

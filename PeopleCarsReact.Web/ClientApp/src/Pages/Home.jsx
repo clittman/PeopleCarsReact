@@ -42,9 +42,9 @@ class Home extends React.Component {
                 </div>
             </div>
             <div style={{ paddingTop: 50 }}>
-                <a href="/addperson">
+                <Link to="/addperson">
                     <button className="btn btn-success btn-lg w-100">Add Person</button>
-                </a>
+                </Link>
             </div>
             <div style={{ paddingTop: 50 }}>
                 <table className='table table-hover table-striped table-bordered'>
